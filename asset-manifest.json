@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/todo-sonya/static/css/main.2174ffe7.css",
-    "main.js": "/todo-sonya/static/js/main.abf6ec96.js",
+    "main.css": "/todo-sonya/static/css/main.3e14ad38.css",
+    "main.js": "/todo-sonya/static/js/main.8e1834d4.js",
     "static/media/cuitbold.ttf": "/todo-sonya/static/media/cuitbold.edd8b7916274d20b5014.ttf",
     "static/media/icon_all.svg": "/todo-sonya/static/media/icon_all.0fda2e40688a448ff18b759d19a6611a.svg",
     "index.html": "/todo-sonya/index.html",
     "static/media/icon_month.svg": "/todo-sonya/static/media/icon_month.9424c94863ad4710dfbaa64c68644a95.svg",
     "static/media/icon_week.svg": "/todo-sonya/static/media/icon_week.7c76f1842bf6984f0f6a6699c5bade8e.svg",
     "static/media/icon_day.svg": "/todo-sonya/static/media/icon_day.e5190fe42fa1c9e3fa97f0c88670fdb0.svg",
-    "main.2174ffe7.css.map": "/todo-sonya/static/css/main.2174ffe7.css.map",
-    "main.abf6ec96.js.map": "/todo-sonya/static/js/main.abf6ec96.js.map"
+    "main.3e14ad38.css.map": "/todo-sonya/static/css/main.3e14ad38.css.map",
+    "main.8e1834d4.js.map": "/todo-sonya/static/js/main.8e1834d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.2174ffe7.css",
-    "static/js/main.abf6ec96.js"
+    "static/css/main.3e14ad38.css",
+    "static/js/main.8e1834d4.js"
   ]
 }
