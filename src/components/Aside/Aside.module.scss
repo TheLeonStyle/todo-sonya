@@ -1,0 +1,35 @@
+@import "../../scss/variables";
+
+.aside {
+	background-color: $bgWhitePearl;
+	width: 60%;
+	height: 100%;
+	padding: 10px 0 30px;
+	overflow: auto;
+}
+.items {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	li {
+		a {
+			display: block;
+			padding: 8px 10px;
+			background-color: $bgCategory;
+			border-radius: 10px;
+			font-size: 16px;
+			color: rgba($color: $colorAside, $alpha: 0.8);
+			transition: background-color 0.3s ease 0s;
+
+			&.active {
+				background-color: $bgCategoryHover;
+			}
+
+			img {
+				width: 15px;
+				height: 15px;
+				margin-right: 10px;
+			}
+		}
+	}
+}

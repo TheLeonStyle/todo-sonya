@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import styles from './App.module.scss';
+import Aside from './components/Aside/Aside';
+import Header from './components/Header/Header';
 
 function App() {
+  const [openBurger, setOpenBurger] = useState(false);
+  const [asideIndex, setAsideIndex] = useState(0);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.app}>
+      <Header openBurger={openBurger} setOpenBurger={setOpenBurger} />
+      {openBurger && (
+        <Aside
+          setOpenBurger={setOpenBurger}
+          activeIndex={asideIndex}
+          setActiveIndex={setAsideIndex}
+        />
+      )}
     </div>
   );
 }
